@@ -17,14 +17,20 @@
         <activity
             android:name=".activity.FaceAttrPreviewActivity"
             android:launchMode="singleTop" />
+
         <activity
-            android:name=".activity.ChooseFunctionActivity"
+            android:name=".activity.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.ChooseFunctionActivity"
+            android:launchMode="singleTop">
+
         </activity>
 
         <activity
