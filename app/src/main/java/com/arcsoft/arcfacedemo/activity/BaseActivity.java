@@ -43,9 +43,12 @@ public abstract class BaseActivity extends AppCompatActivity {
     abstract void afterRequestPermission(int requestCode, boolean isAllGranted);
 
     protected void showToast(String s) {
+//        return;
         Toast.makeText(getApplicationContext(), s, Toast.LENGTH_SHORT).show();
     }
+
     protected void showLongToast(String s) {
+//        return;
         Toast.makeText(getApplicationContext(), s, Toast.LENGTH_LONG).show();
     }
 

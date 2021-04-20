@@ -59,9 +59,15 @@
          />
 
     <Button
-        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saolian"
+        android:text="扫脸" />
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="chupiao"
-        android:text="扫脸出票" />
+        android:text="出票" />
+
 </LinearLayout>
